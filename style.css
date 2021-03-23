@@ -3873,7 +3873,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-desc { display: none 
 .postcontent .portfolio-full.portfolio-notitle .portfolio-desc,
 .postcontent .portfolio-nomargin.portfolio-notitle .portfolio-desc { bottom: -70px; }
 
-.postcontent .portfolio-notitle .portfolio-item:hover .portfolio-overlay a { margin-top: -50px !important; cursor:pointer }
+.postcontent .portfolio-notitle .portfolio-item:hover .portfolio-overlay a { margin-top: -50px !important; }
 
 
 /* Portfolio - Both Sidebars
