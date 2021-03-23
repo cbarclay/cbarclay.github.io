@@ -6797,12 +6797,14 @@ body:not(.device-touch) .button {
 .button.button-3d:hover {
 	background-color: #1ABC9C !important;
 	opacity: 0.9;
+	cursor: pointer;
 }
 
 .button.button-3d.button-light:hover,
 .button.button-reveal.button-light:hover {
 	text-shadow: none;
 	color: #333;
+	cursor: pointer;
 }
 
 
