@@ -7141,7 +7141,9 @@ body:not(.device-touch) .button.button-full strong {
 	border-color: #AEE239;
 }
 
-.button-grey { background-color: #EEEEEE; }
+.button-grey { background-color: #EEEEEE;
+    color: #333;
+    text-shadow: none !important; }
 .button-3d.button-grey:hover,
 .button-reveal.button-grey:hover,
 .button-border.button-grey:hover,
