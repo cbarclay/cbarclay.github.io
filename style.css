@@ -7141,6 +7141,17 @@ body:not(.device-touch) .button.button-full strong {
 	border-color: #AEE239;
 }
 
+.button-grey { background-color: #EEEEEE; }
+.button-3d.button-grey:hover,
+.button-reveal.button-grey:hover,
+.button-border.button-grey:hover,
+.button-border.button-grey.button-fill:before { background-color: #EEEEEE !important; }
+
+.button-border.button-grey {
+    color: #EEEEEE;
+    border-color: #EEEEEE;
+}
+
 .button-purple { background-color: #5D4157; }
 .button-3d.button-purple:hover,
 .button-reveal.button-purple:hover,
