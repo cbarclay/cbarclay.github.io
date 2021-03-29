@@ -37,6 +37,13 @@
 		font-size: 16px;
 	}
 </style>
+<script>
+	function launch_viewer(id) {
+		var players = VidyardV4.api.getPlayersByUUID(id);
+		var player = players[0];
+		player.showLightbox();
+	}
+</script>
 </head>
 
 <body class="stretched">
@@ -140,7 +147,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="portfolio-overlay" data-lightbox="gallery">
+								<div class="portfolio-overlay" data-lightbox="gallery" id="ds-slideshow">
 									<a href="images/portfolio/full/ds1.jpg" class="left-icon" data-lightbox="gallery-item" title="Ontario Design System website homepage"><i class="icon-line-stack-2"></i></a>
 									<a href="images/portfolio/full/ds4.jpg" class="hidden" data-lightbox="gallery-item" title="Ontario Design System - Radio buttons page"><i class="icon-line-stack-2"></i></a>
 									<a href="images/portfolio/full/ds2.jpg" class="hidden" data-lightbox="gallery-item" title="Sample components from the Figma UI Kit"><i class="icon-line-stack-2"></i></a>
@@ -151,7 +158,7 @@
 								<h3>Ontario Design System</h3>
 
 								<p>The Ontario Design System﻿is a repository of assets, styles, components, and patterns for building accessible, consistent, user-centred digital services.</p>
-								<a href="images/portfolio/full/ds1.jpg" class="button button-3d noleftmargin" data-lightbox="gallery-item">View Slideshow</a> <a href="https://designsystem.ontario.ca/" class="button button-3d button-grey noleftmargin">Visit site</a>
+								<a href="javascript:void(0);" class="button button-3d noleftmargin" onclick="launch_viewer('ds-slideshow');">View Slideshow</a> <a href="https://designsystem.ontario.ca/" class="button button-3d button-grey noleftmargin">Visit site</a>
 							</div>
 						</article>
 
